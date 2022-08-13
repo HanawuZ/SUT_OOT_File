@@ -5,7 +5,7 @@
     +------------------------------------------------------------+
 */
 
-package Week3_1;
+package Week_3.Week3_1;
 import java.util.Scanner;
 public class Week3_1 {
     public static void main(String[] args) {

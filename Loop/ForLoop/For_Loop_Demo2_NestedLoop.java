@@ -2,14 +2,14 @@ package Loop.ForLoop;
 
 public class For_Loop_Demo2_NestedLoop {
     /*  ++++++++++++++++++ Nested For loop ++++++++++++++++++
-            Syntax :
-            +-------------------------------------------------------------------+
-            | for (Initialization1 ; Condition ; Increment/Decrement){          |
-            |      for (Initialization2 ; Condition ; Increment/Decrement){     |
-            |            Statement;                                             |
-            |      }                                                            |
-            | }                                                                 |
-            +-------------------------------------------------------------------+   */  
+        Syntax :
+        +-------------------------------------------------------------------+
+        | for (Initialization1 ; Condition ; Increment/Decrement){          |
+        |      for (Initialization2 ; Condition ; Increment/Decrement){     |
+        |            Statement;                                             |
+        |      }                                                            |
+        | }                                                                 |
+        +-------------------------------------------------------------------+   */  
     public static void main(String[] args) {
         int[][] arr = {{1,2,3},
                        {4,5,6},

@@ -1,4 +1,4 @@
-package Week3_4;                // Use folder Week3_4 as this class's package.
+package Week_3.Week3_4;
 import java.util.Arrays;        // Import Java Utility array class.
 public class Week3_4 {
     public static void main(String[] args) {

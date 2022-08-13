@@ -1,6 +1,6 @@
-package Week3_5;        // Using Folder Week3_5 as this class's package.
-public class Week3_5 {
+package Week_3.Week3_5;
 
+public class Week3_5 {
     /* ################################# Main Function ################################# */
     public static void main(String[] args) {
 

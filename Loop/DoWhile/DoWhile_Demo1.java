@@ -20,6 +20,6 @@ public class DoWhile_Demo1 {
         while(index < vowel.length);
 
         /*  ++++++++++++++ Compare with Python ++++++++++++++ 
-         *   o Python ไม่มี syntax do-while loop                       */
+         *   o Python ไม่มี syntax do-while loop, แซด...      */
     }
 }

@@ -2,13 +2,12 @@ package Loop.ForLoop;
 
 public class For_Loop_Demo1 {
     /*  ++++++++++++++++++ For loop ++++++++++++++++++
-            Systax :
-            +-----------------------------------------------------------+
-            | for (Initialization ; Condition ; Increment/Decrement){   |
-            |     Statement-1                                           |
-            |     Statement-2                                           |
-            | }                                                         |
-            +-----------------------------------------------------------+
+        Systax :
+        +-----------------------------------------------------------+
+        | for (Initialization ; Condition ; Increment/Decrement){   |
+        |     Statement;                                            |
+        | }                                                         |
+        +-----------------------------------------------------------+
             o For loop มีคำสั่งอยู่ 4 ส่วน ได้แก่
             [1] Initialization : เป็นคำสั่งการประกาศตัวแปรเพื่อใช้ในเฉพาะ loop ที่จะถูกเรียกใช้เมื่อ 
                 loop เริ่มทำงาน

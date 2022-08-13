@@ -1,6 +1,5 @@
-package Week3_2;
+package Week_3.Week3_2;
 import java.util.Scanner;
-
 public class Week3_2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);    // Initialize Scanner object.
