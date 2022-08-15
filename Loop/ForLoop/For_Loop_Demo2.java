@@ -1,7 +1,5 @@
 package Loop.ForLoop;
 import java.util.Scanner;
-
-/* Summation program */
 public class For_Loop_Demo2 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -20,7 +18,7 @@ public class For_Loop_Demo2 {
             |   for i in range(1,num+1):                              |
             |       sum+=i**2                                         |
             |   print('Summation is %d' %sum)                         |
-            +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-        */
+            +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
     }
 }
+
