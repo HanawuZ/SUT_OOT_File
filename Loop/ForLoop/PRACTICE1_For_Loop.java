@@ -7,20 +7,20 @@
     +====================================================================+  */
 
 package Loop.ForLoop;
-import java.util.Arrays;
 import java.util.Scanner;
+import java.util.Arrays;
 public class PRACTICE1_For_Loop {
     public static void main(String[] args) {
         Scanner Input = new Scanner(System.in);
         int amount;
 
         /* ------------ If use for loop ------------ */
-        // for (;;){
-        //     System.out.print("Enter an amount of integer input(s): ");
-        //     amount = Input.nextInt();
-        //     if (amount <= 0) System.out.println("Try again!!");
-        //     else break;
-        // }
+        for (;;){
+            System.out.print("Enter an amount of integer input(s): ");
+            amount = Input.nextInt();
+            if (amount <= 0) System.out.println("Try again!!");
+            else break;
+        }
         
         /* ------------ If use while loop ------------ */
         // while(true){
@@ -39,13 +39,13 @@ public class PRACTICE1_For_Loop {
         // }
         // while(true);
 
-        // int int_arr[] = new int[amount];
+        int int_arr[] = new int[amount];
 
         /* ------------ If use for loop ------------ */
-        // for (int i = 1 ; i <= amount ; i++){
-        //     System.out.format("Enter number %d: ",i);
-        //     int_arr[i-1] = Input.nextInt();
-        // }
+        for (int i = 1 ; i <= amount ; i++){
+             System.out.format("Enter number %d: ",i);
+             int_arr[i-1] = Input.nextInt();
+        }
 
         /* ------------ If use while loop ------------ */
         // int i = 1;
@@ -63,7 +63,7 @@ public class PRACTICE1_For_Loop {
         //     i++;
         // } while(i <= amount);
 
-        // System.out.println("Array of integer(s): "+Arrays.toString(int_arr));
+        System.out.println("Array of integer(s): "+Arrays.toString(int_arr));
         Input.close();
     }
 }
